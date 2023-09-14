@@ -1,28 +1,25 @@
-<script>
-    // You can add any props or logic you need for the background here.
-  </script>
-  
-  <style>
-    .video-container {
-      position: relative;
+<style>
+    /* Apply the background image and set properties to cover the viewport */
+    .background-container {
+      position: fixed;
+      top: 0;
+      left: 0;
       width: 100%;
-      height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      overflow: hidden;
+      height: 100%;
+      z-index: -1;
     }
   
-    .responsive-video {
+    /* Style the background image */
+    .background-container video {
       position: absolute;
       width: 100%;
       height: 100%;
       object-fit: cover;
     }
-  </style>
+</style>
   
-  <div class="video-container">
-    <video class="-z-10 responsive-video" muted autoplay loop playsinline disablePictureInPicture>
-      <source src="/dreamytemple.webm" type="video/webm"/>
-    </video>
-  </div>  
+  <!-- Empty component, just used for styling -->
+<div class="background-container">
+    <video src="/dreamytemple.webm" muted autoplay loop playsinline disablePictureInPicture></video>
+</div>
+  

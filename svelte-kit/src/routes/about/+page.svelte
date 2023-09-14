@@ -1,5 +1,5 @@
 <script>
-    //import Background from '../../lib/components/Background.svelte';
+    import Background from '../../lib/components/Background.svelte';
     import Navbar from '../../lib/components/+navbar.svelte';
     import Button from './ProjectButton.svelte';
     import Footer from '../../lib/components/+footer.svelte';
@@ -7,13 +7,15 @@
 <main>
     <Navbar />
     <body>
+        <Background />
+        <div class="background-container"> 
         <div class="wrapper">
             <div class="banner">
                 <img src="setup.jpg" alt="setup" class="rounded-md border border-pink-500">
             </div>
-            <div class="p-8 flex flex-col md:flex-row bg-zinc-950 mt-4 md:mt-0 md:ml-4 flex-1 text-white">
-                <div class="description">
-                    <h1 class="text-2xl border-b-2 border-pink-500 w-1/4 pb-2 mb-4"> About Me </h1>
+            <div class="p-8 flex flex-col md:flex-row bg-transparent mt-4 md:mt-0 md:ml-4 flex-1">
+                <div class="description border-b-2 border-pink-500">
+                    <h1 class="text-2xl border-b-2 border-pink-500 w-1/4 pb-2 mb-4"> <strong>About Me</strong></h1>
                         <p>
                             Hey! I'm Lynnelle. Right now, I'm employed at Wildcard Corp. as a Jr. DevOps Engineer/Systems Administrator. 
                             My journey with the company started two years ago during my junior year at the University of Wisconsin - Stevens Point. 
@@ -31,13 +33,13 @@
                         </p>
                 </div>
                 <div class="me-pic mx-auto p-10">
-                    <img src="graduation.jpg" alt="lynn desu" class="rounded-md border-2 border-pink-500 max-w-xs">
+                    <img src="graduation.jpg" alt="lynn desu" class="rounded-md border-b-2 border-pink-500 max-w-xs">
                 </div>
                 
             </div>
-            <div class="p-8 flex flex-col md:flex-row bg-zinc-950 mt-4 md:mt-0 md:ml-4 flex-1 text-white">
-                <div class="description">
-                    <h1 class="text-2xl border-b-2 border-pink-500 w-1/2 pb-2 mb-4">Passion to Profession</h1>
+            <div class="p-8 flex flex-col md:flex-row bg-transparent mt-4 md:mt-0 md:ml-4 flex-1">
+                <div class="description border-b-2 border-pink-500">
+                    <h1 class="text-2xl border-b-2 border-pink-500 w-1/2 pb-2 mb-4"><strong>Passion to Profession</strong></h1>
                         <p>
                             Want to see some things I've worked on? Check out my <Button /> page!
                             <br>
@@ -46,22 +48,20 @@
             </div>
             <Footer /> 
         </div>
+        </div>
     </body>
 </main>
 
 
 <style lang="postcss">
 
-    /* set the background color to match the navbar */
-    .wrapper {
-        background-color: #09090b;
-    }
-
     /* font color of my about description */
     .description {
-        color: white;
+        color: black;
+        background-color: rgba(255, 255, 255, 0.7);
+        padding: 20px;
+        border-radius: 10px;
     }
-
     /* the banner image size */
     .banner img{
         width: 100%;
