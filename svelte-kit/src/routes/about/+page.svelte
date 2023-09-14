@@ -1,5 +1,8 @@
 <script>
+    //import Background from '../../lib/components/Background.svelte';
     import Navbar from '../../lib/components/+navbar.svelte';
+    import Button from './ProjectButton.svelte';
+    import Footer from '../../lib/components/+footer.svelte';
 </script>
 <main>
     <Navbar />
@@ -34,19 +37,20 @@
             </div>
             <div class="p-8 flex flex-col md:flex-row bg-zinc-950 mt-4 md:mt-0 md:ml-4 flex-1 text-white">
                 <div class="description">
-                    <h1 class="text-2xl border-b-2 border-pink-500 w-1/2 pb-2 mb-4">Projects</h1>
+                    <h1 class="text-2xl border-b-2 border-pink-500 w-1/2 pb-2 mb-4">Passion to Profession</h1>
                         <p>
-                            Want to see some things I've worked on? Check out my projects page! 
+                            Want to see some things I've worked on? Check out my <Button /> page!
                             <br>
                         </p>
                 </div>
-            </div> 
+            </div>
+            <Footer /> 
         </div>
     </body>
 </main>
 
 
-<style>
+<style lang="postcss">
 
     /* set the background color to match the navbar */
     .wrapper {
