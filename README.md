@@ -1,7 +1,7 @@
 lynnsanity.io
 =============
 
-### Set up SvelteKit
+### Set up your own SvelteKit
 
 ```sh
 npm init svelte@next svelte-kit
@@ -15,6 +15,15 @@ nvim svelte.config.js
 ```sh
 npm run build
 npm run dev
+```
+
+### Just wanna run my svelte kit and play around?
+```sh
+git clone git@github.com:Lynnsanity/lynnsanity.io.git
+cd lynnsanity.io/svelte-kit
+npm install
+npm run dev
+# go to localhost:5173 in browser of choice
 ```
 
 ### Build and run image locally
