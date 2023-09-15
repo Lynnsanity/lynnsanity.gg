@@ -1,6 +1,10 @@
 <script>
   // import the styling and functionality of the explore button from Button.svelte
-  import Button from './home/Button.svelte';
+  import Button from '../lib/components/Button.svelte';
+
+  function redirectToAboutPage() {
+    window.location.href = "about";
+  }
 </script>
 <main>
   <section class="flex flex-col shrink-0 video-container">
@@ -11,7 +15,7 @@
     <!-- part where the welcome message and button is -->
     <div class="welcome-container">
       <h1 class="h1 text-6xl">Welcome</h1>
-      <Button />
+        <Button text="Explore" onClick={redirectToAboutPage} />
   </section>
 </main>
 

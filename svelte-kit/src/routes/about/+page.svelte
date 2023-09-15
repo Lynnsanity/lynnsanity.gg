@@ -17,10 +17,26 @@
                 <div class="description border-b-2 border-pink-500">
                     <h1 class="text-2xl border-b-2 border-pink-500 w-1/4 pb-2 mb-4"> <strong>About Me</strong></h1>
                         <p>
-                            Hey! I'm Lynnelle. Right now, I'm employed at Wildcard Corp. as a Jr. DevOps Engineer/Systems Administrator. 
-                            My journey with the company started two years ago during my junior year at the University of Wisconsin - Stevens Point. 
-                            I began as a Web Developer intern, fell in love with Kubernetes and DevOps work, and then smoothly transitioned 
-                            into the roles I enjoy today.
+                            Hey! I'm Lynnelle. I'm 25 years old and a recent university graduate.
+                            Here's a fun fact, when I was little, I had a computer that would always have something wrong
+                            with it (like blue screen of death being only ONE of its problems). Which always led to me tinkering
+                            and learning a lot of things about computers. Not to mention around this time I always messed around 
+                            with trying to hack games. 
+                            <br>
+                            * COUGH * ELSWORD * COUGH *
+                            <br>
+                            At that point in time, unbeknownst to me, I had already commenced my tech career at the age of 12. 
+                            My world had started to get closer and closer to tech each day, to becoming glued to my chair
+                            24/7. I had known from the start the career path I'd take revolved around technology.
+                            <br>
+                            <br>
+                            Fast forward to where I'm currently employed, at Wildcard Corp., as a Jr. DevOps Engineer/Systems Administrator. 
+                            Wildcard Corp. hired me as a Web Developer intern at first, during my junior year at the University of Wisconsin - Stevens Point. 
+                            As I studied and worked there trying out both backend and frontend web development, and performing
+                            systems engineering and administrative duties, I fell in love with DevOps methodologies and especially Kubernetes.
+                            Because I was shown all these paths, I was able to find what I liked and smoothly transition into the roles I enjoy today. 
+                            While being passionate about my work, I have so much fun absorbing knowledge
+                            and relishing in learning every day. 
                             <br>
                             <br> 
                             When I'm not at work, you'll still find me in front of my computer, except I'd be playing PC games.
