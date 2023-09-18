@@ -1,8 +1,12 @@
 <script>
     import Background from '../../lib/components/Background.svelte';
     import Navbar from '../../lib/components/+navbar.svelte';
-    import Button from './ProjectButton.svelte';
+    import Button from '../../lib/components/BlackButton.svelte';
     import Footer from '../../lib/components/+footer.svelte';
+
+    function redirectToPage() {
+        window.location.href = "https://idreesinc.com/about-graduation.html";
+    }
 </script>
 <main>
     <Navbar />
@@ -57,7 +61,15 @@
                 <div class="description border-b-2 border-pink-500">
                     <h1 class="text-2xl border-b-2 border-pink-500 w-1/2 pb-2 mb-4"><strong>Passion to Profession</strong></h1>
                         <p>
-                            Want to see some things I've worked on? Check out my <Button /> page!
+                            Want to see some things I've worked on? Check out my <Button /> page
+                        </p>
+                </div>
+            </div>
+            <div class="p-8 flex flex-col md:flex-row bg-transparent mt-4 md:mt-0 md:ml-4 flex-1">
+                <div class="description border-b-2 border-pink-500">
+                    <h1 class="text-2xl border-b-2 border-pink-500 w-1/2 pb-2 mb-4"><strong>Profile</strong></h1>
+                        <p>
+                            Interested? I'm available for a conversation to explore potential collaboration. Feel free <Button /> more details."
                             <br>
                         </p>
                 </div>

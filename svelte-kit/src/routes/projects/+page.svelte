@@ -2,9 +2,9 @@
     import Background from '../../lib/components/Background.svelte';
     import Navbar from '../../lib/components/+navbar.svelte';
     import Footer from '../../lib/components/+footer.svelte';
-    import Button from '../../lib/components/PinkButton.svelte';
+    import Button from '../../lib/components/BlackButton.svelte';
 
-    function redirectToPage() {
+    function redirectIdreesToPage() {
         window.location.href = "https://idreesinc.com/about-graduation.html";
     }
 </script>
@@ -30,11 +30,19 @@
                                 to power the matrix and pi. There were also smaller pieces needed to get them all connected to each other,
                                 that Idrees mentions in his guide quite well.
                                 
-                                <br> 
-                                <Button text="Idrees Reference" onClick={redirectToPage} />
-                                
-                                <br> 
+                                <br>
                             </p>
+                            <div class="float-right">
+                                <div class="pb-1"> 
+                                    <!-- Idrees Reference button -->
+                                    <Button text="Idrees Reference" onClick={redirectIdreesToPage}></Button> 
+                                    <!-- GitHub button -->
+                                    <button id="github" class="h-11 w-12 mx-2 transform rounded-md border border-black bg-transparent text-2xl text-black duration-500 hover:bg-black hover:text-white float-right">
+                                        <i class="fab fa-github"></i>
+                                    </button>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
                     </div>
                 </div>
                 <Footer /> 
