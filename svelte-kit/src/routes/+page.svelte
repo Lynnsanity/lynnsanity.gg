@@ -3,7 +3,7 @@
   import Button from '../lib/components/Button.svelte';
 
   function redirectToAboutPage() {
-    window.location.href = "about";
+    window.location.href = "/about";
   }
 </script>
 <main>

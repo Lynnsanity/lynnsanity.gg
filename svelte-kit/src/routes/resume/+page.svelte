@@ -4,7 +4,7 @@
     import Footer from '../../lib/components/+footer.svelte';
     import Button from '../../lib/components/Button.svelte';
     function redirectToContactPage() {
-        window.location.href = "https://idreesinc.com/about-graduation.html";
+        window.location.href = "/contact";
     }
 </script>
 <main>
