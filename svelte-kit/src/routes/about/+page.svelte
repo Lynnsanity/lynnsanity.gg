@@ -4,7 +4,13 @@
     import Button from '../../lib/components/BlackButton.svelte';
     import Footer from '../../lib/components/+footer.svelte';
 
-    function redirectToPage() {
+    function redirectToProjectsPage() {
+        window.location.href = "https://idreesinc.com/about-graduation.html";
+    }
+    function redirectToContactPage() {
+        window.location.href = "https://idreesinc.com/about-graduation.html";
+    }
+    function redirectToResumePage() {
         window.location.href = "https://idreesinc.com/about-graduation.html";
     }
 </script>
@@ -61,15 +67,25 @@
                 <div class="description border-b-2 border-pink-500">
                     <h1 class="text-2xl border-b-2 border-pink-500 w-1/2 pb-2 mb-4"><strong>Passion to Profession</strong></h1>
                         <p>
-                            Want to see some things I've worked on? Check out my <Button /> page
+                            Want to see some things I've worked on? Check out my <Button text="Projects" onClick={redirectToProjectsPage}></Button> page
                         </p>
                 </div>
             </div>
             <div class="p-8 flex flex-col md:flex-row bg-transparent mt-4 md:mt-0 md:ml-4 flex-1">
                 <div class="description border-b-2 border-pink-500">
-                    <h1 class="text-2xl border-b-2 border-pink-500 w-1/2 pb-2 mb-4"><strong>Profile</strong></h1>
+                    <h1 class="text-2xl border-b-2 border-pink-500 w-1/2 pb-2 mb-4"><strong>CV & Skillsets</strong></h1>
                         <p>
-                            Interested? I'm available for a conversation to explore potential collaboration. Feel free <Button /> more details."
+                            Interested? I'm available for a conversation to explore potential collaboration. Feel free to take a peek at my 
+                            <Button text="Resume" onClick={redirectToResumePage}></Button> for more details.
+                            <br>
+                        </p>
+                </div>
+            </div>
+            <div class="p-8 flex flex-col md:flex-row bg-transparent mt-4 md:mt-0 md:ml-4 flex-1">
+                <div class="description border-b-2 border-pink-500">
+                    <h1 class="text-2xl border-b-2 border-pink-500 w-1/2 pb-2 mb-4"><strong>Contact</strong></h1>
+                        <p>
+                            If you'd like to get in contact, please click here <Button text="Contact" onClick={redirectToContactPage}></Button>
                             <br>
                         </p>
                 </div>

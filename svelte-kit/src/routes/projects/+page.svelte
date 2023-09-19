@@ -4,7 +4,7 @@
     import Footer from '../../lib/components/+footer.svelte';
     import Button from '../../lib/components/BlackButton.svelte';
 
-    function redirectIdreesToPage() {
+    function redirectToIdreesPage() {
         window.location.href = "https://idreesinc.com/about-graduation.html";
     }
 </script>
@@ -35,7 +35,7 @@
                             <div class="float-right">
                                 <div class="pb-1"> 
                                     <!-- Idrees Reference button -->
-                                    <Button text="Idrees Reference" onClick={redirectIdreesToPage}></Button> 
+                                    <Button text="Idrees Reference" onClick={redirectToIdreesPage}></Button> 
                                     <!-- GitHub button -->
                                     <button id="github" class="h-11 w-12 mx-2 transform rounded-md border border-black bg-transparent text-2xl text-black duration-500 hover:bg-black hover:text-white float-right">
                                         <i class="fab fa-github"></i>
