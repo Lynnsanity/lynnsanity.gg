@@ -1,5 +1,5 @@
 <style>
-    /* Apply the background image and set properties to cover the viewport */
+    /* apply the background image and set properties to cover the viewport */
     .background-container {
       position: fixed;
       top: 0;
@@ -9,7 +9,7 @@
       z-index: -1;
     }
   
-    /* Style the background image */
+    /* style the background image */
     .background-container video {
       position: absolute;
       width: 100%;
@@ -18,7 +18,7 @@
     }
 </style>
   
-  <!-- Empty component, just used for styling -->
+
 <div class="background-container">
     <video src="/dreamytemple.webm" muted autoplay loop playsinline disablePictureInPicture></video>
 </div>

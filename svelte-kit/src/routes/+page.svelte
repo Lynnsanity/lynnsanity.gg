@@ -7,6 +7,9 @@
   }
 </script>
 <main>
+  <head>
+    <title>Lynnsanity</title>
+  </head>
   <section class="flex flex-col shrink-0 video-container">
     <!-- background video with responsive properties -->
     <video class="-z-10 responsive-video" muted autoplay loop playsinline disablePictureInPicture>

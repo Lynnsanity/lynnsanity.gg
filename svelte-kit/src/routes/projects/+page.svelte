@@ -9,17 +9,20 @@
     }
 </script>
 <main>
+    <head>
+        <title>Lynnsanity</title>
+    </head>
     <Navbar />
     <body>
         <Background />
-        <div class="background-container"> 
-            <div class="wrapper">
-                <div class="video-container flex justify-center pt-5">
-                    <video class="centered-video w-3/5 rounded-md border-b-2 border-pink-500 responsive-video" muted autoplay loop playsinline disablePictureInPicture width="800" height="400">
+            <div class="wrapper max-w-7xl mx-auto py-2">
+                <div class="flex">
+                    <video class="rounded-md mr-5 border-b-2 border-pink-500 responsive-video w-10/12" muted autoplay loop playsinline disablePictureInPicture width="800" height="400">
                         <source src="/grad-cap.mp4" type="video/mp4"/>
                     </video>
-                </div>
-                <div class="p-8 flex flex-col md:flex-row bg-transparent mt-4 md:mt-0 md:ml-4 flex-1">
+                    <img src="uwsp-cap.png" alt="lynn desu" class="rounded-md border-b-2 border-pink-500 w-5/12 h-">
+                </div>         
+                <div class="pt-8 flex flex-col md:flex-row bg-transparent mt-4 md:mt-0">
                     <div class="description border-b-2 border-pink-500">
                         <h1 class="text-2xl border-b-2 border-pink-500 w-1/4 pb-2 mb-4"> <strong>UWSP Graduation Cap</strong></h1>
                             <p>
@@ -47,7 +50,6 @@
                 </div>
                 <Footer /> 
             </div>
-        </div>
     </body>
 </main>
 
