@@ -19,7 +19,7 @@
                 <div class="col-span-4 sm:col-span-3">
                     <div class="bg-white bg-opacity-90 shadow rounded-lg p-6">
                         <div class="flex flex-col items-center">
-                            <img src="svelte-kit/static/me.jpg" class="w-32 h-32 rounded-full mb-4 shrink-0">
+                            <img src="me.jpg" class="w-32 h-32 rounded-full mb-4 shrink-0">
                             <h1 class="text-xl font-bold">Lynnelle Saavedra</h1>
                             <p class="text-gray-600">DevOps Engineer</p>
                             <div class="mt-6 flex flex-wrap gap-4 justify-center">
@@ -30,7 +30,9 @@
                         <div class="flex flex-col">
                             <span class="text-pink-600 uppercase font-bold tracking-wider mb-2">Certificates</span>
                             <ul>
-                                <li class="mb-2">k8s ckad cert here</li>
+                                <a href="https://www.credly.com/badges/0be32956-73a2-4acc-96c7-2a1551bb9b8a/public_url">
+                                    <img src="certs/ckad.png" alt="CKAD" width="80" height="80"> 
+                                </a>
                             </ul>
                         </div>
                         <hr class="my-6 border-t border-gray-300">

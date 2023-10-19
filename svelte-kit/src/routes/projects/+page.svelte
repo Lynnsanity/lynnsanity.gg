@@ -26,19 +26,41 @@
                     <div class="description border-b-2 border-pink-500">
                         <h1 class="text-2xl border-b-2 border-pink-500 w-1/4 pb-2 mb-4"> <strong>UWSP Graduation Cap</strong></h1>
                             <p>
-                                I really wanted a graduation cap that would stand out from the rest. All I knew was I wanted RGB LEDs on my
-                                head but that I didn't want to look like a christmas tree. So, just like anyone else might, I searched
-                                some ideas on google and found Idreesinc's graduation cap he used. I loved it! I managed to follow his
-                                guide in setting up an Adafruit LED 32x32 matrix with a Raspberry Pi Zero W and a 20,000mAh portable battery
-                                to power the matrix and pi. There were also smaller pieces needed to get them all connected to each other,
-                                that Idrees mentions in his guide quite well.
-                                
+                                Before graduation, I really wanted a graduation cap that would stand out from the rest. I knew I 
+                                wanted RGB LEDs on my head, but that I also didn't want to look like a christmas tree. So, just like anyone 
+                                else might, I searched around for some ideas on google and found Idreesinc's graduation cap he used. I loved it! 
+                                I managed to follow his guide in setting up an Adafruit LED 32x32 matrix with a Raspberry Pi Zero WH and a 20,000mAh portable battery
+                                to power the matrix and pi. On my pi, I used the raspberry pi imager to put rasberry pi OS and got to work on python
+                                scripts that would display images I created that would showcase my journey, show UWSP spirit, and display text that 
+                                congratulated my fellow peers. After graduation, I changed up some pictures and things I said on the cap, and 
+                                donated it to Wildcard Corp. It currently shines brightly at the main entrance window, welcoming everyone who enters
+                                there.
                                 <br>
                             </p>
                             <div class="float-right">
                                 <div class="pb-1"> 
                                     <!-- Idrees Reference button -->
                                     <Button text="Idrees Reference" onClick={redirectToIdreesPage}></Button> 
+                                    <!-- GitHub button -->
+                                    <button id="github" class="h-11 w-12 mx-2 transform rounded-md border border-black bg-transparent text-2xl text-black duration-500 hover:bg-black hover:text-white float-right">
+                                        <i class="fab fa-github"></i>
+                                    </button>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="pt-8 flex flex-col md:flex-row bg-transparent mt-4 md:mt-0">
+                    <div class="description border-b-2 border-pink-500">
+                        <h1 class="text-2xl border-b-2 border-pink-500 w-1/4 pb-2 mb-4"> <strong>Lynnsanity.io</strong></h1>
+                            <p>
+                                I work on this website in my spare time. It means a lot to me and showcases my skills to friends,
+                                family, co-workers and potential employers~
+                                As you might guess I did opensource the code for it, feel free to check it out on GitHub.
+                                <br>
+                            </p>
+                            <div class="float-right">
+                                <div class="pb-1"> 
                                     <!-- GitHub button -->
                                     <button id="github" class="h-11 w-12 mx-2 transform rounded-md border border-black bg-transparent text-2xl text-black duration-500 hover:bg-black hover:text-white float-right">
                                         <i class="fab fa-github"></i>
