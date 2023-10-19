@@ -29,9 +29,14 @@ npm run dev
 ### Build and run image locally
 
 ```sh
-podman build -f Dockerfile -t lynnsanity:1.0.0
-podman run -it --rm --name sveltekit-docker -p 3000:3000 lynnsanity:1.0.0
+podman build -f Dockerfile.frontend -t lynnsanity:1.0.0
+# to have interactive terminal open
+podman run -it --rm --name lynnsanity -p 3000:3000 lynnsanity:1.0.0
+# to run in detached mode
+podman run -d --name lynnsanity -p 3000:3000 lynnsanity:1.0.0
 ```
+
+Go to http://localhost:3000 to see it :)
 
 ### Push image to your registry
 
