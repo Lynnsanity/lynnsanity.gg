@@ -1,0 +1,35 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: lynnsanityio-frontend
+  namespace: lynnsanityio
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: lynnsanityio
+  template:
+    metadata:
+      labels:
+        app: lynnsanityio
+    spec:
+      containers:
+        - name: lynnsanityio-frontend
+          image: lynnsanity/lynnsanity.io:1.0.0
+          ports:
+            - containerPort: 3000
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: lynnsanityio-frontend-svc
+  namespace: lynnsanityio
+spec:
+  type: ClusterIP
+  selector:
+    app: lynnsanityio
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 3000
