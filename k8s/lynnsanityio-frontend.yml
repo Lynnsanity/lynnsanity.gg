@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: lynnsanityio-frontend
-          image: lynnsanity/lynnsanity.io:1.0.0
+          image: lynnsanity/lynnsanity.io:1.1.0
           ports:
             - containerPort: 3000
 ---
