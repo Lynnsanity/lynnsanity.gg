@@ -1,34 +1,38 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: lynnsanitygg
 ---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: lynnsanityio-frontend
-  namespace: lynnsanityio
+  name: lynnsanitygg-frontend
+  namespace: lynnsanitygg
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: lynnsanityio
+      app: lynnsanitygg
   template:
     metadata:
       labels:
-        app: lynnsanityio
+        app: lynnsanitygg
     spec:
       containers:
-        - name: lynnsanityio-frontend
-          image: lynnsanity/lynnsanity.io:1.1.0
+        - name: lynnsanitygg-frontend
+          image: lynnsanity/lynnsanity.io:1.1.1
           ports:
             - containerPort: 3000
 ---
 apiVersion: v1
 kind: Service
 metadata:
-  name: lynnsanityio-frontend-svc
-  namespace: lynnsanityio
+  name: lynnsanitygg-frontend-svc
+  namespace: lynnsanitygg
 spec:
   type: ClusterIP
   selector:
-    app: lynnsanityio
+    app: lynnsanitygg
   ports:
     - protocol: TCP
       port: 80

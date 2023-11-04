@@ -1,0 +1,63 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: cloudflared-lynnsanitygg
+  namespace: lynnsanitygg
+data:
+  config.yml: |
+    # cloudflared tunnel create lynnsanitygg-tun
+    tunnel: lynnsanitygg-tun
+    credentials-file: /etc/cloudflared/creds/credentials.json
+    metrics: 0.0.0.0:2000
+    no-autoupdate: true
+    ingress:
+      - hostname: www.lynnsanity.gg
+      #- hostname: 79bc260c-5a83-434e-b2ec-6ccb12d247dd.lynnsanity.gg
+        service: http://lynnsanitygg-frontend-svc:80
+        httpHostHeader: "localhost"
+      - service: http_status:404
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cloudflared-deployment
+  namespace: lynnsanitygg
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: cloudflared-deployment
+  strategy:
+    rollingUpdate:
+      maxSurge: 25%
+      maxUnavailable: 25%
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        app: cloudflared-deployment
+    spec:
+      containers:
+        - name: cloudflared-deployment
+          image: cloudflare/cloudflared:latest
+          args:
+            - tunnel
+            - --config
+            - /etc/cloudflared/config/config.yml
+            - run
+          imagePullPolicy: Always
+          volumeMounts:
+            - name: config
+              mountPath: /etc/cloudflared/config
+              readOnly: true
+            - name: creds
+              mountPath: /etc/cloudflared/creds
+              readOnly: true
+      volumes:
+        - name: creds
+          secret:
+            secretName: lynnsanitygg-tun-credentials
+        - name: config
+          configMap:
+            name: cloudflared-lynnsanitygg
