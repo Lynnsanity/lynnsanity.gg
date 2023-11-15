@@ -13,7 +13,7 @@
   <section class="flex flex-col shrink-0 video-container">
     <!-- background video with responsive properties -->
     <video class="-z-10 responsive-video" muted autoplay loop playsinline disablePictureInPicture>
-      <source src="/dreamytemple.webm" type="video/webm"/>
+      <source src="/DreamyTemple.mp4" type="video/mp4"/>
     </video>
     <!-- part where the welcome message and button is -->
     <div class="welcome-container">

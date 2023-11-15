@@ -42,9 +42,11 @@
                                     <!-- Idrees Reference button -->
                                     <Button text="Idrees Reference" onClick={redirectToIdreesPage}></Button> 
                                     <!-- GitHub button -->
+                                    <a href="https://github.com/Lynnsanity/grad-cap" target="_blank">
                                     <button id="github" class="h-11 w-12 mx-2 transform rounded-md border border-black bg-transparent text-2xl text-black duration-500 hover:bg-black hover:text-white float-right">
                                         <i class="fab fa-github"></i>
                                     </button>
+                                    </a>
                                     <div class="clearfix"></div>
                                 </div>
                             </div>
@@ -52,7 +54,7 @@
                 </div>
                 <div class="pt-8 flex flex-col md:flex-row bg-transparent mt-4 md:mt-0">
                     <div class="description border-b-2 border-pink-500">
-                        <h1 class="text-2xl border-b-2 border-pink-500 w-1/4 pb-2 mb-4"> <strong>Lynnsanity.io</strong></h1>
+                        <h1 class="text-2xl border-b-2 border-pink-500 w-1/4 pb-2 mb-4"> <strong>Lynnsanity.gg</strong></h1>
                             <p>
                                 I work on this website in my spare time. It means a lot to me and showcases my skills to friends,
                                 family, co-workers and potential employers~
@@ -62,9 +64,11 @@
                             <div class="float-right">
                                 <div class="pb-1"> 
                                     <!-- GitHub button -->
+                                    <a href="https://github.com/Lynnsanity/lynnsanity.gg" target="_blank">
                                     <button id="github" class="h-11 w-12 mx-2 transform rounded-md border border-black bg-transparent text-2xl text-black duration-500 hover:bg-black hover:text-white float-right">
                                         <i class="fab fa-github"></i>
                                     </button>
+                                    </a>
                                     <div class="clearfix"></div>
                                 </div>
                             </div>

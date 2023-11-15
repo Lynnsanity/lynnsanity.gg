@@ -5,27 +5,35 @@
             <ul class="flex flex-wrap text-center items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
                 <li>
                     <!-- LinkedIn button -->
+                    <a href="https://www.linkedin.com/in/lynnsanity/">
                     <button id="linkedin" class="h-12 w-12 transform rounded-full border-2 border-blue-500 bg-white bg-opacity-10 text-2xl text-blue-500 duration-500 hover:-translate-y-3 hover:bg-blue-500 hover:text-white">
                         <i class="fab fa-linkedin-in"></i>
                     </button>
+                    </a>
                 </li>
                 <li>
                     <!-- GitHub button -->
+                    <a href="https://github.com/Lynnsanity">
                     <button id="github" class="h-12 w-12 transform rounded-full border-2 border-gray-100 bg-white bg-opacity-10  text-2xl text-gray-100 duration-500 hover:-translate-y-3 hover:bg-gray-100 hover:text-black">
                         <i class="fab fa-github"></i>
                     </button>
+                    </a>
                 </li>
                 <li>
                     <!-- Discord button -->
+                    <a href="https://www.discordapp.com/users/244878062745944065">
                     <button id="discord" class="h-12 w-12 transform rounded-full border-2 border-indigo-500 bg-white bg-opacity-10  text-2xl text-indigo-500 duration-500 hover:-translate-y-3 hover:bg-indigo-500 hover:text-white">
                         <i class="fab fa-discord"></i>
-                    </button> 
+                    </button>
+                    </a>
                 </li>
                 <li>
                     <!-- YouTube button -->
+                    <a href="https://www.youtube.com/@lynnsanity9977">
                     <button id="youtube" class="h-12 w-12 transform rounded-full border-2 border-red-500 bg-white bg-opacity-10  text-2xl text-red-500 duration-500 hover:-translate-y-3 hover:bg-red-500 hover:text-white">
                         <i class="fab fa-youtube"></i>
                     </button>
+                    </a>
                 </li>
                 <li>
                     <!-- Facebook button -->
@@ -37,7 +45,7 @@
                 </li>
                 <li>
                     <!-- Spotify button -->
-                    <a href="https://spotify.link/gizelvBK4Cb">
+                    <a href="https://open.spotify.com/playlist/3S5kkzMh8eMQnHCUlti2cu?si=9ab0ab6ef0b543b1">
                         <button id="spotify" class="h-12 w-12 transform rounded-full border-2 border-green-500 bg-white bg-opacity-10 text-2xl text-green-500 duration-500 hover:-translate-y-3 hover:bg-green-500 hover:text-white">
                             <i class="fab fa-spotify"></i>
                         </button>
