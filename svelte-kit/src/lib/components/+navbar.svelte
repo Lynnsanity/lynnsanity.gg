@@ -10,7 +10,7 @@
     });
   });
 </script>
-<nav class="bg-white border-gray-200 dark:bg-transparent">
+<nav class="bg-transparent border-gray-200 light:bg-transparent dark:bg-transparent">
     <!-- left side of navbar, lynnsanity logo-->
     <div class="max-w-screen-xl flex flex-wrap items-center mx-auto justify-between p-4">
       <a href="/" class="flex items-center">

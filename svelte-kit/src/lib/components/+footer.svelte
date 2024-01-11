@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
-<footer class="mx-auto bg-white rounded-lg shadow light:bg-transparent dark:bg-transparent">
+<footer class="mx-auto bg-transparent rounded-lg shadow light:bg-transparent dark:bg-transparent">
     <div class="max-w-screen-xl my-6 mx-4">
         <div class="mx-auto">
             <div class="flex items-center justify-center">
