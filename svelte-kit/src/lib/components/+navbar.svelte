@@ -27,16 +27,16 @@
       <div class="hidden w-full md:block md:w-auto" id="navbar-default">
         <ul class="text-white bg-transparent font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-12 md:mt-0 md:border-0 dark:bg-gray-800 dark:border-gray-700">
           <li>
-            <a href="/about" class="text-white bg-transparent block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 light:text-white dark:text-white">About</a>
+            <a href="/about" class="text-white bg-transparent block py-2 pl-3 pr-4 rounded hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 light:text-white dark:text-white">About</a>
           </li>
           <li>
-            <a href="/projects" class="text-white bg-transparent block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 light:text-white dark:text-white">Projects</a>
+            <a href="/projects" class="text-white bg-transparent block py-2 pl-3 pr-4 rounded hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 light:text-white dark:text-white">Projects</a>
           </li>
           <li>
-            <a href="/resume" class="text-white bg-transparent block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 light:text-white dark:text-white">Resume</a>
+            <a href="/resume" class="text-white bg-transparent block py-2 pl-3 pr-4 rounded hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 light:text-white dark:text-white">Resume</a>
           </li>
           <li>
-            <a href="/contact" class="text-white bg-transparent block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 light:text-white dark:text-white">Contact</a>
+            <a href="/contact" class="text-white bg-transparent block py-2 pl-3 pr-4 rounded hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 light:text-white dark:text-white">Contact</a>
           </li>
         </ul>
       </div>
