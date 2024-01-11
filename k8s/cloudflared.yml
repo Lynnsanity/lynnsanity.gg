@@ -13,7 +13,6 @@ data:
     no-autoupdate: true
     ingress:
       - hostname: www.lynnsanity.gg
-      #- hostname: 79bc260c-5a83-434e-b2ec-6ccb12d247dd.lynnsanity.gg
         service: http://lynnsanitygg-frontend-svc:80
         httpHostHeader: "localhost"
       - service: http_status:404
