@@ -14,14 +14,14 @@
     <Navbar />
     <body>
         <Background />
-        <div class="container max-w-7xl mx-auto py-2">
-            <div class="grid grid-cols-4 sm:grid-cols-12 gap-6 px-4">
+        <div class="container max-w-7xl mx-auto my-2 px-4">
+            <div class="grid grid-cols-4 sm:grid-cols-12 gap-6">
                 <div class="col-span-4 sm:col-span-3">
-                    <div class="bg-white bg-opacity-90 shadow rounded-lg p-6">
+                    <div class="bg-white bg-opacity-80 shadow rounded-lg p-6">
                         <div class="flex flex-col items-center">
-                            <img src="me.jpg" class="w-32 h-32 rounded-full mb-4 shrink-0">
+                            <img src="ishme.jpg" class="w-32 h-32 rounded-full mb-4 shrink-0">
                             <h1 class="text-xl font-bold">Lynnelle Saavedra</h1>
-                            <p class="text-gray-600">DevOps Engineer</p>
+                            <p class="text-gray-600">Jr. DevOps Engineer / Sys Admin</p>
                             <div class="mt-6 flex flex-wrap gap-4 justify-center">
                                 <Button text="Contact" onClick={redirectToContactPage}></Button> 
                             </div>
@@ -52,30 +52,33 @@
                                 </span>  
                                 <ul>
                                 <li class="mb-2">Kubernetes</li>
+                                <li class="mb-2">Command Line / Terminal</li>
                                 <li class="mb-2">Containerization</li>
+                                <li class="mb-2">Linux</li>
                                 <li class="mb-2">Docker</li>
                                 <li class="mb-2">Podman</li>
-                                <li class="mb-2">Linux</li>
-                                <li class="mb-2">Terraform</li>
-                                <li class="mb-2">Azure, AKS</li>
+                                <li class="mb-2">Amazon Web Services, EKS</li>
                                 <li class="mb-2">Google Cloud Platform, GKE</li>
-                                <li class="mb-2">Amazon Web Services</li>
+                                <li class="mb-2">Azure, AKS</li>
+                                <li class="mb-2">Terraform</li>
+                                <li class="mb-2">Ansible</li>
                                 <li class="mb-2">CI / CD</li>
                                 <li class="mb-2">Prometheus</li>
                                 <li class="mb-2">Grafana</li>
                                 <li class="mb-2">Oauth2</li>
-                                <li class="mb-2">Ansible</li>
                                 <li class="mb-2">CloudFlare</li>
                                 <li class="mb-2">Nginx</li>
+                                <li class="mb-2">NiceGUI</li>
                                 <li class="mb-2">Git & GitHub</li>
                                 </ul>
                                 <span class="text-purple-900 text-sm uppercase py-2 tracking-wider mb-2">
                                     SQL / NoSQL Databases
                                 </span>
                                 <ul>
+                                    <li class="mb-2">PostgreSQL</li>
                                     <li class="mb-2">CockroachDB</li>
                                     <li class="mb-2">MongoDB</li>
-                                    <li class="mb-2">PostgreSQL</li>
+                                    <li class="mb-2">CouchDB</li>
                                     <li class="mb-2">Redis</li>
                                 </ul>
                                 <span class="text-purple-900 text-sm uppercase py-2 tracking-wider mb-2">
@@ -93,17 +96,18 @@
                     </div>
                 </div>
                 <div class="col-span-4 sm:col-span-9">
-                    <div class="bg-white bg-opacity-90 shadow rounded-lg p-6">
+                    <div class="bg-white bg-opacity-80 shadow rounded-lg p-6">
                         <h2 class="text-xl font-bold mb-4 border-b-2 border-pink-500 w-1/4 pb-2 mb-4">Profile</h2>
                         <p class="text-gray-700">Bilingual university graduate with a strong foundation in technology, 
                             holding a B.S. in Web Development and an A.A.S. in Computer Engineering Technology. Currently 
-                            serving as a dedicated Jr. DevOps Engineer at Wildcard Corp., where I actively contribute to 
-                            the development, deployment, and maintenance of cutting-edge software solutions. My passion 
-                            for DevOps practices drives my work as I specialize in Kubernetes orchestration, containerization 
-                            strategies, and cloud services across Amazon Web Services, Azure, and Google Cloud Platform. 
-                            Holding a Certified Kubernetes Application Developer (CKAD) certificate, I am committed to 
-                            continuous growth and now seek an opportunity with a forward-looking company that will enable me 
-                            to spread my wings and fully realize my potential as a true DevOps professional.
+                            serving as a dedicated Jr. DevOps Engineer / Systems Administrator at Wildcard Corp., where I 
+                            actively contribute to the design, engineering, development, deployment, and maintenance of 
+                            cutting-edge software solutions. My passion for DevOps practices drives my work as I specialize 
+                            in Kubernetes orchestration, where I adhere to FIPs and STIG compliant containerization strategies. 
+                            My expertise extends across cloud services including AWS, Azure, and GCP. Holding a Certified 
+                            Kubernetes Application Developer (CKAD) certificate, I am dedicated to ongoing personal and 
+                            professional development, actively pursuing opportunities with forward-thinking companies where 
+                            I can contribute to their success while expanding my expertise in my chosen field.
                         </p> 
 
                         <h2 class="text-xl font-bold mt-6 mb-4 border-b-2 border-pink-500 w-1/4 pb-2 mb-4">Experience</h2>
@@ -119,9 +123,15 @@
                                     <li> 
                                         Contributing to the architecture, construction, deployment, and upkeep of multiple federal websites.
                                     </li>
+                                    <li> 
+                                        The creation, maintenance, deployment and administration between multiple production and development 
+                                        level Kubernetes clusters, including facilitating seamless transitions of applications between clusters.
+                                    </li>
                                     <li>
-                                        Managing and overseeing multiple Kubernetes clusters, including facilitating seamless transitions of 
-                                        applications between clusters.
+                                        The containerization of federal project repositories by using tools like Podman and Docker.
+                                    </li>
+                                    <li>
+                                        Systems Administration of dozens of production linux servers, ensuring uptime, security, and up to date features.
                                     </li>
                                     <li>
                                         Enabling the establishment of robust CI/CD pipelines and implementing security scanning protocols.
@@ -195,11 +205,12 @@
                                         Associate in Applied Science Degree in Computer Engineering
                                     </li>
                                 </ul>
+                        </div>
                     </div>
                 </div>
             </div> 
-        </div>
         <Footer />
+        </div>
     </body>
 </main>
 

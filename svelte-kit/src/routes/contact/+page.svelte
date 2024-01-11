@@ -19,8 +19,8 @@
     <body>
         <Background />
 
-        <div class="container max-w-7xl mx-auto py-2">
-            <div class="bg-white bg-opacity-50 shadow rounded-lg p-6">
+        <div class="container max-w-7xl mx-auto my-2">
+            <div class="bg-white bg-opacity-50 shadow rounded-lg mx-4 p-6">
                 <div class="flex flex-col items-center">
                     <img src="k8sanime.jpg" class="w-32 h-32 rounded-full mb-4 shrink-0">
                     <h1 class="text-xl font-bold">Lynnelle Saavedra</h1>
@@ -42,8 +42,7 @@
                     </span>
                 </div> 
             </div>
-        </div>
-
         <Footer />
+        </div>
     </body>
 </main>

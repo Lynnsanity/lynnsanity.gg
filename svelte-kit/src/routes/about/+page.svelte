@@ -21,12 +21,12 @@
     <Navbar />
     <body>
         <Background />
-        <div class="wrapper max-w-7xl mx-auto py-2">
-            <div class="banner">
+        <div class="wrapper max-w-7xl mx-auto my-2">
+            <div class="banner mx-4">
                 <img src="setup.jpg" alt="setup" class="rounded-md border border-pink-500">
             </div>
-            <div class="pt-8 flex flex-col md:flex-row bg-transparent md:mt-0 flex-1">
-                <div class="description border-b-2 border-pink-500">
+            <div class="pt-8 flex flex-col md:flex-row bg-transparent md:mt-0 flex-1 mx-4">
+                <div class="description border-b-2 border-pink-500 bg-opacity-50">
                     <h1 class="text-2xl border-b-2 border-pink-500 w-1/4 pb-2 mb-4"> <strong>About Me</strong></h1>
                         <p>
                             Hey! I'm Lynnelle. I'm 25 years old and a university graduate. Ever since I was 12,
@@ -55,21 +55,21 @@
                 </div>
                 
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8">
-                <div class="description rounded-md bg-white bg-opacity-70 p-4 border-b-2 border-pink-500">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8 mx-4">
+                <div class="description rounded-md bg-white bg-opacity-50 p-4 border-b-2 border-pink-500">
                     <h1 class="text-2xl pb-2 mb-4 border-b-2 border-pink-500 w-3/4"><strong>Passion to Profession</strong></h1>
                     <p>
                         Want to see some things I've worked on? Check out my <Button text="Projects" onClick={redirectToProjectsPage}></Button> page
                     </p>
                 </div>
-                <div class="description rounded-md bg-white bg-opacity-70 p-4 border-b-2 border-pink-500">
+                <div class="description rounded-md bg-white bg-opacity-50 p-4 border-b-2 border-pink-500">
                     <h1 class="text-2xl pb-2 mb-4 border-b-2 border-pink-500 w-3/4"><strong>CV & Skillsets</strong></h1>
                     <p>
                         Interested? I'm available for a conversation to explore potential collaboration. Feel free to take a peek at my 
                         <Button text="Resume" onClick={redirectToResumePage}></Button> for more details.
                     </p>
                 </div>
-                <div class="description rounded-md bg-white bg-opacity-70 p-4 border-b-2 border-pink-500">
+                <div class="description rounded-md bg-white bg-opacity-50 p-4 border-b-2 border-pink-500">
                     <h1 class="text-2xl pb-2 mb-4 border-b-2 border-pink-500 w-3/4"><strong>Contact</strong></h1>
                     <p>
                         If you'd like to get in contact, please click here <Button text="Contact" onClick={redirectToContactPage}></Button>

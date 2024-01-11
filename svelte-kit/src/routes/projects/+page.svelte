@@ -2,7 +2,7 @@
     import Background from '../../lib/components/Background.svelte';
     import Navbar from '../../lib/components/+navbar.svelte';
     import Footer from '../../lib/components/+footer.svelte';
-    import Button from '../../lib/components/BlackButton.svelte';
+    import Button from '../../lib/components/ReferenceButton.svelte';
 
     function redirectToIdreesPage() {
         window.location.href = "https://idreesinc.com/about-graduation.html";
@@ -15,14 +15,16 @@
     <Navbar />
     <body>
         <Background />
-            <div class="wrapper max-w-7xl mx-auto py-2">
-                <div class="flex">
-                    <video class="rounded-md mr-5 border-b-2 border-pink-500 responsive-video w-10/12" muted autoplay loop playsinline disablePictureInPicture width="800" height="400">
+            <div class="wrapper max-w-7xl mx-auto my-2 mx-auto">
+                <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-2 mx-4 w-auto h-auto">
+                    <div class="video">
+                    <video class="rounded-md mr-5 border-b-2 border-pink-500 responsive-video" muted autoplay loop playsinline disablePictureInPicture>
                         <source src="/grad-cap.mp4" type="video/mp4"/>
                     </video>
-                    <img src="uwsp-cap.png" alt="lynn desu" class="rounded-md border-b-2 border-pink-500 w-5/12 h-">
+                    </div>
+                    <img src="uwsp-cap.png" alt="lynn desu" class="rounded-md border-b-2 border-pink-500 h-auto w-auto">
                 </div>         
-                <div class="pt-8 flex flex-col md:flex-row bg-transparent mt-4 md:mt-0">
+                <div class="pt-8 flex flex-col md:flex-row bg-transparent mt-4 md:mt-0 mx-4">
                     <div class="description border-b-2 border-pink-500">
                         <h1 class="text-2xl border-b-2 border-pink-500 w-1/4 pb-2 mb-4"> <strong>UWSP Graduation Cap</strong></h1>
                             <p>
@@ -52,26 +54,26 @@
                             </div>
                     </div>
                 </div>
-                <div class="pt-8 flex flex-col md:flex-row bg-transparent mt-4 md:mt-0">
+                <div class="pt-8 flex flex-col md:flex-row bg-transparent bg-opacity-80 mt-4 md:mt-0 mx-4">
                     <div class="description border-b-2 border-pink-500">
                         <h1 class="text-2xl border-b-2 border-pink-500 w-1/4 pb-2 mb-4"> <strong>Lynnsanity.gg</strong></h1>
-                            <p>
-                                I work on this website in my spare time. It means a lot to me and showcases my skills to friends,
-                                family, co-workers and potential employers~
-                                As you might guess I did opensource the code for it, feel free to check it out on GitHub.
-                                <br>
-                            </p>
-                            <div class="float-right">
-                                <div class="pb-1"> 
-                                    <!-- GitHub button -->
-                                    <a href="https://github.com/Lynnsanity/lynnsanity.gg" target="_blank">
-                                    <button id="github" class="h-11 w-12 mx-2 transform rounded-md border border-black bg-transparent text-2xl text-black duration-500 hover:bg-black hover:text-white float-right">
-                                        <i class="fab fa-github"></i>
-                                    </button>
-                                    </a>
-                                    <div class="clearfix"></div>
-                                </div>
+                        <p>
+                            I work on this website in my spare time. It means a lot to me and showcases my skills to friends,
+                            family, co-workers and potential employers~
+                            As you might guess I did opensource the code for it, feel free to check it out on GitHub.
+                            <br>
+                        </p>
+                        <div class="float-right">
+                            <div class="pb-1"> 
+                                <!-- GitHub button -->
+                                <a href="https://github.com/Lynnsanity/lynnsanity.gg" target="_blank">
+                                <button id="github" class="h-11 w-12 mx-2 transform rounded-md border border-black bg-transparent text-2xl text-black duration-500 hover:bg-black hover:text-white float-right">
+                                    <i class="fab fa-github"></i>
+                                </button>
+                                </a>
+                                <div class="clearfix"></div>
                             </div>
+                        </div>
                     </div>
                 </div>
                 <Footer /> 
@@ -88,7 +90,10 @@
         padding: 20px;
         border-radius: 10px;
     }
-
+    .video video {
+        height: 100%;
+        object-fit: fill;
+    }
     p {
         line-height: 2;
         font-size: 18px;
