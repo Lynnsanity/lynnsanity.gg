@@ -3,7 +3,7 @@
     <div class="max-w-screen-xl my-6 mx-4">
         <div class="mx-auto">
             <div class="flex items-center justify-center">
-                <ul class="flex text-center items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+                <ul class="flex text-center items-center mb-6 text-sm font-medium text-white sm:mb-0 dark:text-gray-400">
                     <li>
                         <!-- LinkedIn button -->
                         <a href="https://www.linkedin.com/in/lynnsanity/" class="px-5">
@@ -56,7 +56,7 @@
             </div>
         </div>
         <hr class="my-6 border-pink-500 sm:mx-auto dark:border-pink-500 lg:my-8" />
-        <span class="block text-sm text-gray-500 text-center dark:bg-transparent light:bg-transparent dark:text-white">© 2023 <a href="https://lynnsanity.gg" class="hover:underline">Lynnsanity™</a>
+        <span class="block text-sm text-white text-center dark:bg-transparent light:bg-transparent light:text-white dark:text-white">© 2023 <a href="https://lynnsanity.gg" class="hover:underline">Lynnsanity™</a>
             <br>
             <p> Use of images belonging to third party companies are the property of their respective owners, and serve for identification purposes only.</p>
         </span> 
