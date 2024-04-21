@@ -21,7 +21,7 @@
                         <div class="flex flex-col items-center">
                             <img src="ishme.jpg" class="w-32 h-32 rounded-full mb-4 shrink-0">
                             <h1 class="text-xl font-bold">Lynnelle Saavedra</h1>
-                            <p class="text-gray-600">Jr. DevOps Engineer / Sys Admin</p>
+                            <p class="text-gray-600">DevOps Engineer / Sys Admin</p>
                             <div class="mt-6 flex flex-wrap gap-4 justify-center">
                                 <Button text="Contact" onClick={redirectToContactPage}></Button> 
                             </div>
@@ -39,58 +39,40 @@
                         <div class="flex flex-col">
                             <span class="text-pink-600 uppercase font-bold tracking-wider mb-2">Skills</span>
                                 <span class="text-purple-900 text-sm uppercase py-2 tracking-wider mb-2">
-                                    Programming / Scripting Languages
-                                </span>                                
-                                <ul> 
-                                <li class="mb-2">Python</li>
-                                <li class="mb-2">Bash</li>
-                                <li class="mb-2">JavaScript</li>
-                                <li class="mb-2">TypeScript</li>
-                                </ul>
-                                <span class="text-purple-900 text-sm uppercase py-2 tracking-wider mb-2">
-                                    Proficient With
-                                </span>  
-                                <ul>
-                                <li class="mb-2">Kubernetes</li>
-                                <li class="mb-2">Command Line / Terminal</li>
-                                <li class="mb-2">Containerization</li>
-                                <li class="mb-2">Linux</li>
-                                <li class="mb-2">Docker</li>
-                                <li class="mb-2">Podman</li>
-                                <li class="mb-2">Amazon Web Services, EKS</li>
-                                <li class="mb-2">Google Cloud Platform, GKE</li>
-                                <li class="mb-2">Azure, AKS</li>
-                                <li class="mb-2">Terraform</li>
-                                <li class="mb-2">Ansible</li>
-                                <li class="mb-2">CI / CD</li>
-                                <li class="mb-2">Prometheus</li>
-                                <li class="mb-2">Grafana</li>
-                                <li class="mb-2">Oauth2</li>
-                                <li class="mb-2">CloudFlare</li>
-                                <li class="mb-2">Nginx</li>
-                                <li class="mb-2">NiceGUI</li>
-                                <li class="mb-2">Git & GitHub</li>
-                                </ul>
-                                <span class="text-purple-900 text-sm uppercase py-2 tracking-wider mb-2">
-                                    SQL / NoSQL Databases
+                                    Languages
                                 </span>
                                 <ul>
-                                    <li class="mb-2">PostgreSQL</li>
-                                    <li class="mb-2">CockroachDB</li>
-                                    <li class="mb-2">MongoDB</li>
-                                    <li class="mb-2">CouchDB</li>
-                                    <li class="mb-2">Redis</li>
+                                    <li>Python, Bash, JavaScript, TypeScript, HTML5, CSS, YAML, Markdown, Spanish</li>
+                                </ul>
+                                <span class="text-purple-900 text-sm uppercase py-2 tracking-wider mb-2">
+                                    Systems
+                                </span>
+                                <ul>
+                                    <li>Kubernetes, Linux, Command Line / Terminal, Docker / Podman, Google Cloud Platform, GKE, Azure, AKS, Amazon Web Services, EKS</li>
+                                </ul>
+                                <span class="text-purple-900 text-sm uppercase py-2 tracking-wider mb-2">
+                                    Tools
+                                </span>
+                                <ul>
+                                    <li>Command Line / Terminal, Terraform, Ansible, Drone CI/CD, ElasticSearch / Opensearch, Prometheus & Loki, Grafana, CloudFlare, NGINX, Lighttpd, HAProxy, Twilio, Infisical, Git & GitHub</li>
+                                </ul>
+                                <span class="text-purple-900 text-sm uppercase py-2 tracking-wider mb-2">
+                                    Frameworks
+                                </span>
+                                <ul>
+                                    <li>Angular, Svelte, Bootstrap, FastAPI, Vue, Django, Flask, NiceGUI</li>
+                                </ul>
+                                <span class="text-purple-900 text-sm uppercase py-2 tracking-wider mb-2">
+                                    Databases
+                                </span>
+                                <ul>
+                                    <li>PostgreSQL, CockroachDB, MongoDB, CouchDB, Redis</li>
                                 </ul>
                                 <span class="text-purple-900 text-sm uppercase py-2 tracking-wider mb-2">
                                     Miscellaneous
                                 </span>
                                 <ul>
-                                    <li class="mb-2">HTML5</li>
-                                    <li class="mb-2">CSS</li>
-                                    <li class="mb-2">YAML</li>
-                                    <li class="mb-2">FastAPI</li>
-                                    <li class="mb-2">Svelte</li>
-                                    <li class="mb-2">Markdown</li>
+                                    <li>OAuth2 RFC 6749</li>
                                 </ul>
                         </div>
                     </div>
@@ -98,53 +80,58 @@
                 <div class="col-span-4 sm:col-span-9">
                     <div class="bg-white bg-opacity-80 shadow rounded-lg p-6">
                         <h2 class="text-xl font-bold mb-4 border-b-2 border-pink-500 w-1/4 pb-2 mb-4">Profile</h2>
-                        <p class="text-gray-700">Bilingual university graduate with a strong foundation in technology, 
-                            holding a B.S. in Web Development and an A.A.S. in Computer Engineering Technology. Currently 
-                            serving as a dedicated Jr. DevOps Engineer / Systems Administrator at Wildcard Corp., where I 
-                            actively contribute to the design, engineering, development, deployment, and maintenance of 
-                            cutting-edge software solutions. My passion for DevOps practices drives my work as I specialize 
-                            in Kubernetes orchestration, where I adhere to FIPs and STIG compliant containerization strategies. 
-                            My expertise extends across cloud services including AWS, Azure, and GCP. Holding a Certified 
-                            Kubernetes Application Developer (CKAD) certificate, I am dedicated to ongoing personal and 
-                            professional development, actively pursuing opportunities with forward-thinking companies where 
-                            I can contribute to their success while expanding my expertise in my chosen field.
-                        </p> 
-
+                        <p class="text-gray-700">Bilingual university grad with a B.S. in Web Development and an A.A.S. 
+                            in Computer Engineering Technology. Currently DevOps Engineer / Sys Admin at Wildcard Corp. 
+                            Passionate about DevOps practices, while specializing in Kubernetes orchestration with 
+                            expertise in GCP, Azure, and AWS. Certified Kubernetes Application Developer (CKAD)
+                            committed to continuous growth and seeking opportunities with innovative companies to 
+                            contribute and expand skills.
+                        </p>
                         <h2 class="text-xl font-bold mt-6 mb-4 border-b-2 border-pink-500 w-1/4 pb-2 mb-4">Experience</h2>
                         <div class="mb-6">
                             <div class="flex justify-between">
-                                <span class="text-pink-600 font-bold pb-5">Jr. DevOps Engineer / Systems Administrator</span>
+                                <span class="text-pink-600 font-bold pb-5">DevOps Engineer / Systems Administrator</span>
                                 <p>
                                     <span class="text-gray-600 mr-2">Wildcard Corp.</span>
                                     <span class="text-gray-600">2021 - Current</span>
                                 </p>
-                            </div> 
+                            </div>
                                 <ul>
-                                    <li> 
-                                        Contributing to the architecture, construction, deployment, and upkeep of multiple federal websites.
-                                    </li>
-                                    <li> 
-                                        The creation, maintenance, deployment and administration between multiple production and development 
-                                        level Kubernetes clusters, including facilitating seamless transitions of applications between clusters.
+                                    <li>
+                                        Architected, provisioned, and managed deployments between multiple production, staging, and 
+                                        development level Kubernetes clusters, to include facilitating seamless transitions of 
+                                        applications between clusters, all while achieving 50% cost reduction.                                                                      </li>
+                                    <li>
+                                        Contributed to multiple federal websites' architecture, construction, deployment, 
+                                        pipelines, and upkeep.
                                     </li>
                                     <li>
-                                        The containerization of federal project repositories by using tools like Podman and Docker.
+                                        The containerization of federal project repositories to OCI-compliant containers as 
+                                        per DoD STIG baselines and NIST SP 800-53.
                                     </li>
                                     <li>
-                                        Systems Administration of dozens of production linux servers, ensuring uptime, security, and up to date features.
+                                        Systems Administration of dozens of production Linux servers, ensuring reliability, 
+                                        security, and compliance.
                                     </li>
                                     <li>
-                                        Enabling the establishment of robust CI/CD pipelines and implementing security scanning protocols.
+                                        Enabled the establishment of secure-by-default CI/CD pipelines to include SAST (bandit), 
+                                        SCA (syft/grype), and robust unit testing (pytest).
                                     </li>
                                     <li>
-                                        Automating infrastructure provisioning and configuration using tools like Terraform and Ansible.
+                                        Automated infrastructure provisioning and configuration using tools such as Terraform 
+                                        and Ansible.
                                     </li>
                                     <li>
-                                        Designing and implementing disaster recovery and backup strategies to ensure data integrity and 
-                                        business continuity.
+                                        Championed the deployment of a remote management tool, now an indispensable part of daily 
+                                        utilization for the operations team.
                                     </li>
                                     <li>
-                                        Mentored and provided training to web development interns, imparting essential skills and knowledge to foster their growth and proficiency in the field.
+                                        Designed and implemented disaster recovery and backup strategies to ensure data 
+                                        integrity and business continuity.
+                                    </li>
+                                    <li>
+                                        Interviewed, evaluated, mentored, and trained multiple developer interns, imparting 
+                                        essential skills and knowledge to foster their growth in the wild world of Kubernetes.
                                     </li>
                                 </ul>
                         </div>
@@ -152,28 +139,28 @@
                             <div class="flex justify-between pb-5">
                                 <span class="text-pink-600 font-bold">Front of Precinct Agent</span>
                                 <p>
-                                    <span class="text-gray-600 mr-2">Best Buy</span>
+                                    <span class="text-gray-600 mr-2">Geek Squad (Best Buy)</span>
                                     <span class="text-gray-600">2020 - 2021</span>
                                 </p>
                             </div>
                             <ul>
                                 <li>
-                                    Able to adapt to challenges and changes in consumer electronics 
+                                    Established and maintained client relationships, ensuring their needs were understood 
+                                    and addressed promptly.
                                 </li>
                                 <li>
-                                    Listening to a client's specific needs with PC setups, data transfers and basic repairs 
+                                    Approached challenges with a mindset of innovation and creativity, and broke down complex 
+                                    issues into manageable tasks to deliver effective solutions.
                                 </li>
                                 <li>
-                                    Building relationships with clients to provide more tailored solutions to their needed fix 
+                                    Troubleshoot, de-escalated, made deductions, and resolved issues regarding 
+                                    technology efficiently. Also provided solutions in person and over the phone.
                                 </li>
                                 <li>
-                                    Ability to troubleshoot, de-escalate, make deductions, and resolve issues regarding technology efficiently all while providing solutions in person and over the phone 
+                                    Apple-trained in an Apple Authorized Service Provider location.
                                 </li>
                                 <li>
-                                    Apple-trained in an Apple Authorized Service Provider location
-                                </li> 
-                                <li>
-                                    Provide functionality checks and on-board diagnostics on returned items 
+                                    Provided functionality checks and on-board diagnostics on returned items.
                                 </li>
                             </ul>
                         </div> 
