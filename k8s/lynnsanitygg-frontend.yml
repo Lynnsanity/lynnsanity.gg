@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: lynnsanitygg-frontend
-          image: lynnsanity/lynnsanity.gg:1.1.4
+          image: lynnsanity/lynnsanity.gg:1.1.5
           ports:
             - containerPort: 3000
 ---
