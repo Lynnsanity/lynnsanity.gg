@@ -29,31 +29,29 @@
                 <div class="description border-b-2 border-pink-500 bg-opacity-50">
                     <h1 class="text-2xl border-b-2 border-pink-500 w-1/4 pb-2 mb-4"> <strong>About Me</strong></h1>
                         <p>
-                            Hey! I'm Lynnelle. I'm 25 years old and a university graduate. Ever since I was 12,
-                            I loved tinkering with computers and creating websites.
+                            Hey! I'm Lynnelle. Ever since I was younger, I loved tinkering with computers and creating websites.
+                            I'm passionate about assisting others with technical problems and tackling complex challenges.
                             <br>
                             <br>
-                            I'm currently employed at Wildcard Corp., as a Jr. DevOps Engineer/Systems Administrator. 
-                            Wildcard Corp. hired me as a Web Developer intern at first, during my junior year at the University of Wisconsin - Stevens Point. 
-                            In my work I assist in the development, deployment, maintenance, and administration of federal websites.
-                            Somewhere along the lines I fell in love with DevOps methodologies and especially Kubernetes.
-                            Because I was shown all these paths, I was able to find what I liked and smoothly 
-                            transition into the roles I enjoy today. 
+                            I'm currently employed at Wildcard Corp., as a DevOps Engineer / Systems Administrator.
+                            In my work I assist in the creation, development, deployment, maintenance, 
+                            and administration of federal websites. Doing so has enabled me to learn different
+                            cloud environments, and many different tools and systems I can use to achieve my goals.
+                            Somewhere along the lines I fell in love with DevOps methodologies, containerization,
+                            and the container orchestrator, Kubernetes.
+                            Since I delved into different paths, I was able to find what I liked and smoothly 
+                            transition into the roles I enjoy today.
                             <br>
-                            <br> 
+                            <br>
                             When I'm not at work, you'll still find me in front of my computer, except I'd be playing PC games.
-                            Usually FPS, Battle Royales and MMORPGs catch my interest the most, with Overwatch 2 and Apex Legends being my
-                            current favorites. If I'm away from my computer, you can find me watching anime, strumming my guitar, and making 
-                            sure my dogs get their walks and playtime.
+                            Usually FPS, Battle Royales and MMORPGs catch my interest the most, with Overwatch 2 being my all time 
+                            favorite. If I'm away from my computer, you can find me studying, watching anime, strumming my guitar, 
+                            and making sure my dogs get their walks and playtime.
                             <br>
                             <br>
-                            <em>"Tutturu!" -Mayuri Shiina </em>  
+                            <em>"i use arch btw"</em>
                         </p>
                 </div>
-                <div class="me-pic mx-auto p-10">
-                    <img src="graduation.jpg" alt="lynn desu" class="rounded-md border-b-2 border-pink-500 max-w-xs">
-                </div>
-                
             </div>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8 mx-4">
                 <div class="description rounded-md bg-white bg-opacity-50 p-4 border-b-2 border-pink-500">

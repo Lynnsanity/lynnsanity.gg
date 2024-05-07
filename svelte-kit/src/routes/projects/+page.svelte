@@ -16,14 +16,43 @@
     <body>
         <Background />
             <div class="wrapper max-w-7xl mx-auto my-2 mx-auto">
-                <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-2 mx-4 w-auto h-auto">
+                <div class="my-8 flex flex-col md:flex-row bg-transparent bg-opacity-80 mt-4 md:mt-0 mx-4">
+                    <div class="description border-b-2 border-pink-500">
+                        <div class="mb-4 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 flex items-center justify-center">
+                            <img src="pcl-screenie.png" alt="pcl-home" class="rounded-md border-b-2 border-pink-500 w-full h-full">
+                            <img src="pcl-form.png" alt="pcl-form" class="rounded-md border-b-2 border-pink-500 w-full h-full">
+                        </div>
+                        <h1 class="text-2xl border-b-2 border-pink-500 w-1/4 pb-2 mb-4"> <strong>pointerchallengeleague.com</strong></h1>
+                        <p>
+                            I'm currently championing revamping pointerchallengeleague.com, a platform tailored 
+                            for esports teams based in Wisconsin to register for the Pointer Challenge League competition. 
+                            This year, the spotlight is on Overwatch 2, and I'm thrilled to release it for sign ups in May 2024.
+                            This event is sponsored by the University of Wisconsin - Stevens Point faculty and students in the 
+                            esports club and the department of computing and new media technologies. This project was completely 
+                            done using NiceGUI and other python packages.
+                            <br>
+                        </p>
+                        <div class="float-right">
+                            <div class="pb-1"> 
+                                <!-- GitHub button -->
+                                <a href="https://github.com/Lynnsanity/lynnsanity.gg" target="_blank">
+                                <button id="github" class="h-11 w-12 mx-2 transform rounded-md border border-black bg-transparent text-2xl text-black duration-500 hover:bg-black hover:text-white float-right">
+                                    <i class="fab fa-github"></i>
+                                </button>
+                                </a>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 mx-4 w-auto h-auto">
                     <div class="video">
                     <video class="rounded-md mr-5 border-b-2 border-pink-500 responsive-video" muted autoplay loop playsinline disablePictureInPicture>
                         <source src="/grad-cap.mp4" type="video/mp4"/>
                     </video>
                     </div>
                     <img src="uwsp-cap.png" alt="lynn desu" class="rounded-md border-b-2 border-pink-500 h-auto w-auto">
-                </div>         
+                </div>
                 <div class="pt-8 flex flex-col md:flex-row bg-transparent mt-4 md:mt-0 mx-4">
                     <div class="description border-b-2 border-pink-500">
                         <h1 class="text-2xl border-b-2 border-pink-500 w-1/4 pb-2 mb-4"> <strong>UWSP Graduation Cap</strong></h1>

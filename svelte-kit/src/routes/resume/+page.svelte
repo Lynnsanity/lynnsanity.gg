@@ -18,10 +18,9 @@
             <div class="grid grid-cols-4 sm:grid-cols-12 gap-6">
                 <div class="col-span-4 sm:col-span-3">
                     <div class="bg-white bg-opacity-80 shadow rounded-lg p-6">
-                        <div class="flex flex-col items-center">
-                            <img src="ishme.jpg" class="w-32 h-32 rounded-full mb-4 shrink-0">
+                        <div class="flex text-center flex-col items-center">
                             <h1 class="text-xl font-bold">Lynnelle Saavedra</h1>
-                            <p class="text-gray-600">DevOps Engineer / Sys Admin</p>
+                            <p class="text-gray-600 mt-2">DevOps Engineer / Sys Admin</p>
                             <div class="mt-6 flex flex-wrap gap-4 justify-center">
                                 <Button text="Contact" onClick={redirectToContactPage}></Button> 
                             </div>
