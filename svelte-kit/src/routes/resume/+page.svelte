@@ -26,13 +26,17 @@
                             </div>
                         </div>
                         <hr class="my-6 border-t border-gray-300">
-                        <div class="flex flex-col">
-                            <span class="text-pink-600 uppercase font-bold tracking-wider mb-2">Certificates</span>
-                            <ul>
-                                <a href="https://www.credly.com/badges/0be32956-73a2-4acc-96c7-2a1551bb9b8a/public_url">
-                                    <img src="certs/ckad.png" alt="CKAD" width="80" height="80"> 
-                                </a>
-                            </ul>
+                        <span class="text-pink-600 uppercase font-bold tracking-wider mb-2">Certificates</span>
+                        <div class="w-full mt-2">
+                            <div class="inline-block">
+                            <a href="https://www.credly.com/badges/0be32956-73a2-4acc-96c7-2a1551bb9b8a/public_url">
+                                <img src="certs/ckad.png" alt="CKAD" width="80" height="80"></a>
+                            </div>
+                            <div class="inline-block">
+                            <a href="https://www.credly.com/badges/bc3c8272-d49f-40f6-bd6a-292917cbe5dd/public_url">
+                                <img src="certs/kcna.png" alt="KCNA" width="80" height="80"> 
+                            </a>
+                            </div>
                         </div>
                         <hr class="my-6 border-t border-gray-300">
                         <div class="flex flex-col">
