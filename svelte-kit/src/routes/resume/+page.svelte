@@ -42,40 +42,34 @@
                         <div class="flex flex-col">
                             <span class="text-pink-600 uppercase font-bold tracking-wider mb-2">Skills</span>
                                 <span class="text-purple-900 text-sm uppercase py-2 tracking-wider mb-2">
-                                    Languages
+                                    Cloud Providers
                                 </span>
                                 <ul>
-                                    <li>Python, Bash, JavaScript, TypeScript, HTML5, CSS, YAML, Markdown, Spanish</li>
+                                    <li>AWS, GCP, Azure</li>
                                 </ul>
                                 <span class="text-purple-900 text-sm uppercase py-2 tracking-wider mb-2">
-                                    Systems
+                                    Platforms & Tools
                                 </span>
                                 <ul>
-                                    <li>Kubernetes, Linux, Command Line / Terminal, Docker / Podman, Google Cloud Platform, GKE, Azure, AKS, Amazon Web Services, EKS</li>
+                                    <li>Kubernetes, Linux, Docker, Serverless, Command Line, Git, Terraform, Ansible, Puppet, Vault, Packer, BuildKite</li>
                                 </ul>
                                 <span class="text-purple-900 text-sm uppercase py-2 tracking-wider mb-2">
-                                    Tools
+                                    Observability
                                 </span>
                                 <ul>
-                                    <li>Command Line / Terminal, Terraform, Ansible, Drone CI/CD, ElasticSearch / Opensearch, Prometheus & Loki, Grafana, CloudFlare, NGINX, Lighttpd, HAProxy, Twilio, Infisical, Git & GitHub</li>
+                                    <li>DataDog, Grafana, Prometheus, Loki</li>
                                 </ul>
                                 <span class="text-purple-900 text-sm uppercase py-2 tracking-wider mb-2">
-                                    Frameworks
+                                    Web & Application Development
                                 </span>
                                 <ul>
-                                    <li>Angular, Svelte, Bootstrap, FastAPI, Vue, Django, Flask, NiceGUI</li>
+                                    <li>Angular, Svelte, Vue, Django, FastAPI, Flask, Python, JavaScript, TypeScript, HTML5, CSS, Bash, SQL, YAML, Markdown</li>
                                 </ul>
                                 <span class="text-purple-900 text-sm uppercase py-2 tracking-wider mb-2">
                                     Databases
                                 </span>
                                 <ul>
-                                    <li>PostgreSQL, CockroachDB, MongoDB, CouchDB, Redis</li>
-                                </ul>
-                                <span class="text-purple-900 text-sm uppercase py-2 tracking-wider mb-2">
-                                    Miscellaneous
-                                </span>
-                                <ul>
-                                    <li>OAuth2 RFC 6749</li>
+                                    <li>CockroachDB, PostgreSQL, MongoDB, CouchDB, Redis</li>
                                 </ul>
                         </div>
                     </div>
@@ -83,20 +77,49 @@
                 <div class="col-span-4 sm:col-span-9">
                     <div class="bg-white bg-opacity-80 shadow rounded-lg p-6">
                         <h2 class="text-xl font-bold mb-4 border-b-2 border-pink-500 w-1/4 pb-2 mb-4">Profile</h2>
-                        <p class="text-gray-700">Bilingual university grad with a B.S. in Web Development and an A.A.S. 
-                            in Computer Engineering Technology. Currently DevOps Engineer / Sys Admin at Wildcard Corp. 
-                            Passionate about DevOps practices, while specializing in Kubernetes orchestration with 
-                            expertise in GCP, Azure, and AWS. Certified Kubernetes Application Developer (CKAD)
-                            committed to continuous growth and seeking opportunities with innovative companies to 
-                            contribute and expand skills.
+                        <p class="text-gray-700"> Platform Engineer with hands-on experience designing and scaling 
+                        infrastructure and deployment automation at FanDuel. Skilled in stabilizing developer platforms, 
+                        modernizing infrastructure-as-code, and creating reusable automation that accelerates adoption 
+                        across teams. Proven track record in optimizing CI/CD pipelines to reduce technical debt, shorten 
+                        onboarding, and enable both Kubernetes and non-Kubernetes workloads. Adept at cross-team collaboration 
+                        and driving initiatives that enhance developer velocity, reliability, and scalability.
                         </p>
                         <h2 class="text-xl font-bold mt-6 mb-4 border-b-2 border-pink-500 w-1/4 pb-2 mb-4">Experience</h2>
                         <div class="mb-6">
                             <div class="flex justify-between">
-                                <span class="text-pink-600 font-bold pb-5">DevOps Engineer / Systems Administrator</span>
+                                <span class="text-pink-600 font-bold pb-5">Platform Engineer</span>
+                                <p>
+                                    <span class="text-gray-600 mr-2">FanDuel</span>
+                                    <span class="text-gray-600">2024 - Present</span>
+                                </p>
+                            </div>
+                                <ul>
+                                    <li>
+                                        Enhance, maintain, and add new features for AMI creation, infrastructure provisioning, 
+                                        and deployment automation for the official Sportsbook product, while extending it to 
+                                        support multi-domain use.
+                                    </li>
+                                    <li>
+                                        Cut onboarding time for new services and domains by 80% through automation improvements 
+                                        and clearer documentation, accelerating adoption across the company.
+                                    </li>
+                                    <li>
+                                        Improve developer environments, Kubernetes and non-Kubernetes, by strengthening system 
+                                        processes, infrastructure, and alerting - raising stack process uptime by 60% and reducing 
+                                        incidents.
+                                    </li>
+                                    <li>
+                                        Support and guide developers in effectively leveraging and learning the Developer Portal 
+                                        by promoting best practices and updated documentation.
+                                    </li>
+                                </ul>
+                        </div>
+                        <div class="mb-6">
+                            <div class="flex justify-between">
+                                <span class="text-pink-600 font-bold pb-5">DevOps Engineer & Systems Administrator</span>
                                 <p>
                                     <span class="text-gray-600 mr-2">Wildcard Corp.</span>
-                                    <span class="text-gray-600">2021 - Current</span>
+                                    <span class="text-gray-600">2021 - 2024</span>
                                 </p>
                             </div>
                                 <ul>
