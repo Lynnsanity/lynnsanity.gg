@@ -9,9 +9,6 @@ COPY ./svelte-kit/ ./
 # Clean install all dependencies
 RUN npm ci
 
-# Remove potential security issues
-RUN npm audit fix
-
 # Build SvelteKit app
 RUN npm run build
 
@@ -26,9 +23,6 @@ COPY --from=build /app/package*.json ./
 
 # Clean install dependencies, no devDependencies, no prepare script
 RUN npm ci --production --ignore-scripts
-
-# Remove potential security issues
-RUN npm audit fix
 
 # Copy the built SvelteKit app from the build stage
 COPY --from=build /app/build ./
