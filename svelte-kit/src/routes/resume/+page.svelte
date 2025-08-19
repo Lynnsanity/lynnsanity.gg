@@ -109,8 +109,8 @@
                                         incidents.
                                     </li>
                                     <li>
-                                        Support and guide developers in effectively leveraging and learning the Developer Portal 
-                                        by promoting best practices and updated documentation.
+                                        Support and guide developers in using the Developer Portal by promoting best practices,
+                                        resolving issues and maintaining up-to-date documentation.
                                     </li>
                                 </ul>
                         </div>

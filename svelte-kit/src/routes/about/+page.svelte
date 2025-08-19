@@ -33,14 +33,15 @@
                             I'm passionate about assisting others with technical problems and tackling complex challenges.
                             <br>
                             <br>
-                            I'm currently employed at Wildcard Corp., as a DevOps Engineer / Systems Administrator.
-                            In my work I assist in the creation, development, deployment, maintenance, 
-                            and administration of federal websites. Doing so has enabled me to learn different
-                            cloud environments, and many different tools and systems I can use to achieve my goals.
-                            Somewhere along the lines I fell in love with DevOps methodologies, containerization,
-                            and the container orchestrator, Kubernetes.
-                            Since I delved into different paths, I was able to find what I liked and smoothly 
-                            transition into the roles I enjoy today.
+                            At FanDuel, I work on building and maintaining infrastructure that enables fast, reliable, 
+                            and scalable software delivery. I focus on automation, developer experience, and platform 
+                            reliability — helping teams ship code efficiently and manage their environments with confidence. 
+                            My role spans infrastructure as code, CI/CD, configuration management, and cloud architecture, 
+                            with a strong emphasis on creating reusable systems and improving developer workflows across the company.
+                            
+                            Early in my career, I developed a strong passion for DevOps methodologies, containerization, and Kubernetes. 
+                            Over time - and through a unique and dynamic career path - I’ve grown to specialize in designing and implementing 
+                            platforms and developer automation frameworks that drive developer enablement and ensure platform resilience.
                             <br>
                             <br>
                             When I'm not at work, you'll still find me in front of my computer, except I'd be playing PC games.
