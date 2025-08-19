@@ -35,7 +35,7 @@
                             <br>
                             At FanDuel, I work on building and maintaining infrastructure that enables fast, reliable, 
                             and scalable software delivery. I focus on automation, developer experience, and platform 
-                            reliability — helping teams ship code efficiently and manage their environments with confidence. 
+                            reliability - helping teams ship code efficiently and manage their environments with confidence. 
                             My role spans infrastructure as code, CI/CD, configuration management, and cloud architecture, 
                             with a strong emphasis on creating reusable systems and improving developer workflows across the company.
                             
