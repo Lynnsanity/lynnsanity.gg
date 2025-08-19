@@ -25,7 +25,7 @@ make dev
 ### Just wanna run my svelte kit and play around?
 ```sh
 git clone git@github.com:Lynnsanity/lynnsanity.gg.git
-cd lynnsanity.io/svelte-kit
+cd lynnsanity.gg/svelte-kit
 npm install
 npm run dev
 # go to localhost:5173 in browser of choice
