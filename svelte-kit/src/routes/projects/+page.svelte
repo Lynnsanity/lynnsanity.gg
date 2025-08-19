@@ -16,7 +16,27 @@
     <body>
         <Background />
             <div class="wrapper max-w-7xl mx-auto my-2 mx-auto">
-                <div class="my-8 flex flex-col md:flex-row bg-transparent bg-opacity-80 mt-4 md:mt-0 mx-4">
+                <div class="my-8 flex flex-col md:flex-row bg-transparent bg-opacity-80 mt-4 md:mt-0 mx-4"> 
+                    <div class="description border-b-2 border-pink-500">
+                        <div class="mb-4 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 flex items-center justify-center">
+                            <div class="video">
+                                <video class="rounded-md mr-5 border-b-2 border-pink-500 responsive-video" muted autoplay loop playsinline disablePictureInPicture>
+                                <source src="/minecraftfunni.mp4" type="video/mp4"/>
+                                </video>
+                            </div>
+                            <img src="pcbuild.jpg" alt="pcl-form" class="rounded-md border-b-2 border-pink-500 w-full h-full">
+                        </div>
+                        <h1 class="text-2xl border-b-2 border-pink-500 w-1/4 pb-2 mb-4"> <strong>New PC Build!</strong></h1>
+                        <p>
+                            Specs include a HYTE Y70 Touch Infinite Case, i9-14900K processor, ASUS Z790 GAMING WIFI7 motherboard, 
+                            NVIDIA GeForce RTX 3070 GPU, 1TB SSD, Corsair RS120 ARGB Fans and Liquid Cooler, and 850W Corsair PSU. 
+                            She'll definitely last me a while ! Hopefully I can upgrade the GPU sooner rather than later. I think 
+                            it's funny I can play minecraft on the touch screen (lol).
+                            <br>
+                        </p>
+                    </div>
+                </div>
+                <div class="my-8 flex flex-col md:flex-row bg-transparent bg-opacity-80 mt-4 md:mt-0 mx-4"> 
                     <div class="description border-b-2 border-pink-500">
                         <div class="mb-4 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 flex items-center justify-center">
                             <img src="pcl-screenie.png" alt="pcl-home" class="rounded-md border-b-2 border-pink-500 w-full h-full">
@@ -24,12 +44,12 @@
                         </div>
                         <h1 class="text-2xl border-b-2 border-pink-500 w-1/4 pb-2 mb-4"> <strong>pointerchallengeleague.com</strong></h1>
                         <p>
-                            I'm currently championing revamping pointerchallengeleague.com, a platform tailored 
-                            for esports teams based in Wisconsin to register for the Pointer Challenge League competition. 
-                            This year, the spotlight is on Overwatch 2, and I'm thrilled to release it for sign ups in May 2024.
-                            This event is sponsored by the University of Wisconsin - Stevens Point faculty and students in the 
-                            esports club and the department of computing and new media technologies. This project was completely 
-                            done using NiceGUI and other python packages.
+                            A site intended for pointerchallengeleague.com. A platform tailored 
+                            for esports teams based in Wisconsin to register for the Pointer Challenge League competition.
+                            Includes sign ups for teams willing to participate, and is sponsored by the University of Wisconsin 
+                            - Stevens Point faculty and students in the esports club and the department of computing and new media 
+                            technologies. This project was completely done using NiceGUI and other python packages. My favorite game, 
+                            Overwatch 2, was the spotlight for May 2024!
                             <br>
                         </p>
                         <div class="float-right">
